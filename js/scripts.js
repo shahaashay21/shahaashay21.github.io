@@ -13,7 +13,7 @@ jQuery(document).ready(function($){
 
 var link = document.getElementById('email');
 link.onclick = function() {
-    this.href = "mailto:anerips31@gmail.com?subject=";
+    this.href = "mailto:aashay2105@gmail.com?subject=";
 	this.href+=getSubject();
 	this.href+="&body=";
     this.href += getBody();
@@ -30,24 +30,24 @@ function getSubject() {
 }
 	var $menuTop;
 
-	$(window).load(function(){
+	// $(window).load(function(){
 
-		$(".loading_screen").fadeOut(10, function(){
+		// $(".loading_screen").fadeOut(150, function(){
 
-			$(".theme_configs").addClass("visible");
+			// $(".theme_configs").addClass("visible");
 
-			$("#wrapper").animate({
-				opacity : 1
-			}, 10);
+			// $("#wrapper").animate({
+			// 	opacity : 1
+			// }, 10);
 
 			var scrollTop = $(window).scrollTop();
 			$menuTop = $(".navbar_outer").offset().top;
 
 			setNavbarFixed(scrollTop, $menuTop);
 
-		});
+		// });
 
-	});
+	// });
 
 	$(window).scroll(function(){
 		var scrollTop = $(window).scrollTop();
