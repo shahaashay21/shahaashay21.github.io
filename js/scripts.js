@@ -32,13 +32,13 @@ function getSubject() {
 
 	$(window).load(function(){
 
-		$(".loading_screen").fadeOut(150, function(){
+		$(".loading_screen").fadeOut(10, function(){
 
 			$(".theme_configs").addClass("visible");
 
 			$("#wrapper").animate({
 				opacity : 1
-			}, 150);
+			}, 10);
 
 			var scrollTop = $(window).scrollTop();
 			$menuTop = $(".navbar_outer").offset().top;
