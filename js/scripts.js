@@ -197,27 +197,27 @@ function getSubject() {
 	});
 
 	// Tweets feed
-	$('.tweets_feed').twittie({
-		username: 'envato',
-	    dateFormat: '%b. %d, %Y',
-	    template: 
-	    '<div class="icon"><i class="fa fa-twitter"></i></div>'+
-	    '<div class="text">'+
-	    	'{{tweet}}'+
-	    '</div>'+
-	    '<div class="date">'+
-	    	'<a href="{{url}}">{{screen_name}}</a> &bull; <a href="{{url}}">{{date}}</a>'+
-	    '</div>'
-	    ,
-	    count: 4
-	}, function(){
-		$(".tweets_feed").owlCarousel({
+	// $('.tweets_feed').twittie({
+	// 	username: 'envato',
+	//     dateFormat: '%b. %d, %Y',
+	//     template: 
+	//     '<div class="icon"><i class="fa fa-twitter"></i></div>'+
+	//     '<div class="text">'+
+	//     	'{{tweet}}'+
+	//     '</div>'+
+	//     '<div class="date">'+
+	//     	'<a href="{{url}}">{{screen_name}}</a> &bull; <a href="{{url}}">{{date}}</a>'+
+	//     '</div>'
+	//     ,
+	//     count: 4
+	// }, function(){
+	// 	$(".tweets_feed").owlCarousel({
 
-			pagination : true,
-			singleItem:true
+	// 		pagination : true,
+	// 		singleItem:true
 
-		});
-	});
+	// 	});
+	// });
 
 
 	var theme_array = [{"stylers":[{"hue":"#ff1a00"},{"invert_lightness":true},{"saturation":-100},{"lightness":33},{"gamma":0.5}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#2D333C"}]}];
